@@ -1,0 +1,78 @@
+/* Background gradient and text styles */
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the dashboard container */
+.dashboard-container {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add styles for button boxes */
+.button-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.button-box {
+    background-color: #ffffff;
+    color: #4facfe;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styles */
+.btn {
+    text-decoration: none;
+    color: #4facfe;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #4facfe;
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4facfe;
+    color: #ffffff;
+}
+
+/* Logout button styles */
+.logout-button-container {
+    margin-top: 50px;
+}
+
+.logout-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff4b5c;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover {
+    background-color: #e63946;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}

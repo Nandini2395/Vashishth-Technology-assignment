@@ -1,0 +1,92 @@
+/* Body styling with a vibrant gradient background */
+body {
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+/* Styling for the login container */
+.login-container {
+    background: rgba(9, 0, 0, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Form header */
+.login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6a11cb;
+}
+
+/* Input field styling */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #6a11cb;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #2575fc;
+    box-shadow: 0px 0px 8px rgba(37, 117, 252, 0.5);
+    outline: none;
+}
+
+/* Login button styling */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-container button:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    transform: translateY(-2px);
+}
+
+.login-container button:active {
+    transform: translateY(1px);
+}
+
+/* Link for forgotten password */
+.login-container a {
+    display: block;
+    margin-top: 15px;
+    color: #6a11cb;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.login-container a:hover {
+    color: #2575fc;
+}
+
+/* Add a small footer text */
+.login-container .footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #808080;
+}

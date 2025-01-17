@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+.manage-students-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-success, .btn-danger, .btn-primary, .btn-secondary {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.list-group-item {
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.buttons-container .btn {
+    margin: 5px;
+    width: 45%;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}

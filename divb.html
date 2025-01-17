@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Div A Attendance</title>
+    <link rel="stylesheet" href="divb.css">
+</head>
+<body>
+    <div class="div-a-container">
+        <h1>Division B - Attendance</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Present Days</th>
+                    <th>Absent Days</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                    <tr>
+                        <td>{{ student['student_name'] }}</td>
+                        <td>{{ student['present_days'] }}</td>
+                        <td>{{ student['absent_days'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
